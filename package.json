@@ -1,0 +1,10 @@
+{
+  "name": "ncii-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static website for the NC Education Innovation Leadership Institute",
+  "scripts": {
+    "preview": "python3 -m http.server 4173",
+    "preview:public": "python3 -m http.server 4173 --bind 0.0.0.0"
+  }
+}
